@@ -3,7 +3,7 @@
 
 /* styles.css */
 .small-image {
-  width: 400px; /* Set the desired width */
+  width: 50%; /* Set the desired width */
   height: auto; /* Maintain aspect ratio */
 }
 

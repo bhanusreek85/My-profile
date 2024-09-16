@@ -4,7 +4,7 @@ import sampleImage from '../Assets/sapcertified.jpg';
 
 export default function Nav({ links }) {
     return (
-      <nav className="navbar navbar-expand-lg bg-success">
+      <nav className="navbar navbar-expand-lg bg-info">
     <div className="container-fluid d-flex align-items-center">
         <Link className="navbar-brand text-light" to="/">Bhanusree Kurra</Link>
         <img src={sampleImage} alt="Sample" className="img-fluid small-image ms-3" style={{ width: '10%', height: '20%' }}/>

@@ -5,6 +5,9 @@ import App from './App.jsx'
 import {createBrowserRouter, RouterProvider } from 'react-router-dom';
 import ErrorPage from './pages/ErrorPage';
 import HomePage from './pages/HomePage';
+import EducationPage from './pages/EducationPage.jsx'
+import ContactPage from './pages/ContactPage.jsx';
+import SkillsPage from './pages/SkillsPage.jsx';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
 const router = createBrowserRouter([
@@ -18,10 +21,18 @@ const router = createBrowserRouter([
       index:true,
       element:<HomePage/>,
     },
-    // {
-    //   path:'/About',
-    //   element:<AboutPage/>,
-    // },
+    {
+      path:'/Education',
+      element:<EducationPage/>,
+    },
+    {
+      path:'/Contact',
+      element:<ContactPage/>,
+    },
+    {
+      path:'/Skills',
+      element:<SkillsPage/>,
+    },
     // {
     //   path:'/Profile/:id',
     //   element:<ProfilePage/>,

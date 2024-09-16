@@ -2,7 +2,7 @@ import Footer from '../components/Footer';
 
 export default function EducationPage() {
   return (
-    <div className="d-flex flex-column min-vh-100 bg-dark">
+    <div className=" custom-bg-edu d-flex flex-column min-vh-100 bg-dark">
       <div className="flex-grow-1">
         <div className="container pt-3 pb-3">
           <h1 className="text-center mb-4 text-light">Education & Certifications</h1>

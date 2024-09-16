@@ -9,7 +9,7 @@ import EducationPage from './pages/EducationPage.jsx'
 import ContactPage from './pages/ContactPage.jsx';
 import SkillsPage from './pages/SkillsPage.jsx';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './index.css';
+import './styles/index.css';
 const router = createBrowserRouter([
   // Todo: Define the accessible routes, and which components respond to which URL
  {

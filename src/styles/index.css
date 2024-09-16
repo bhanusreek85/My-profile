@@ -11,11 +11,11 @@ html, body {
 }
 
 .custom-bg {
-  background-image: url('./Assets/OIP.jpg'); /* Adjust the path to your background image */
+  background-image: url('../Assets/OIP.jpg'); /* Adjust the path to your background image */
 }
 
 .custom-bg-edu {
-  background-image: url('./Assets/education.jpg'); /* Adjust the path to your background image */
+  background-image: url('../Assets/education.jpg'); /* Adjust the path to your background image */
 }
 
 .container {

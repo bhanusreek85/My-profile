@@ -1,4 +1,4 @@
-import sampleImage from '../Assets/mypicture.jpg'; 
+import sampleImage from '../../public/Assets/mypicture.jpg'; 
 import Footer from '../components/Footer.jsx';
 
 export default function HomePage() {

@@ -8,6 +8,7 @@ import HomePage from './pages/HomePage';
 import EducationPage from './pages/EducationPage.jsx'
 import ContactPage from './pages/ContactPage.jsx';
 import SkillsPage from './pages/SkillsPage.jsx';
+import FullStackPortfolioPage from './pages/FullStackPortfolioPage.jsx'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './styles/index.css';
 const router = createBrowserRouter([
@@ -33,10 +34,11 @@ const router = createBrowserRouter([
       path:'/Skills',
       element:<SkillsPage/>,
     },
-    // {
-    //   path:'/Profile/:id',
-    //   element:<ProfilePage/>,
-    // },
+
+    {
+      path:'/FullStackPortfolio',
+      element:<FullStackPortfolioPage/>,
+    },
       
    ]
 }

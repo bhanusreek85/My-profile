@@ -15,7 +15,10 @@ export default function Nav() {
         <Link key={3} className="nav-link text-light" to="/Education">
           Education
         </Link>,
-        <Link key={4} className="nav-link text-light" to="/Contact">
+        <Link key={4} className="nav-link text-light" to="/FullStackPortfolio">
+          Full Stack Portfolio
+        </Link>,
+        <Link key={5} className="nav-link text-light" to="/Contact">
           Contact me
         </Link>,
       ]}

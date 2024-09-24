@@ -5,7 +5,7 @@ export default function EducationPage() {
     <div className=" custom-bg-edu d-flex flex-column min-vh-100 bg-dark">
       <div className="flex-grow-1">
         <div className="container pt-3 pb-3">
-          <h1 className="text-center mb-4 text-light">Education & Certifications</h1>
+          <h1 className="text-center mb-4 gradient-text">Education & Certifications</h1>
           <div className="row">
             <div className="col-md-6">
               <h3 className="text-primary">Education</h3>

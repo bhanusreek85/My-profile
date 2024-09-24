@@ -1,6 +1,6 @@
 import React from "react";
 import { Link ,useLocation } from "react-router-dom";
-import sampleImage from "../Assets/sapcertified.jpg";
+import sampleImage from "../../public/Assets/sapcertified.jpg";
 
 export default function Nav({ links }) {
   const location = useLocation();
